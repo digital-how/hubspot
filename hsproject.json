@@ -2,6 +2,7 @@
   "name": "hubspot-company-line-items-app",
   "srcDir": "hubspot",
   "version": "1.0.0",
+  "platformVersion": "2025.2",
   "description": "A HubSpot app that displays line items from company deals in a custom sidebar card",
   "author": "digital-how",
   "website": "https://github.com/digital-how/hubspot",
