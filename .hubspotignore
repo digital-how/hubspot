@@ -1,0 +1,27 @@
+# Backend files (not needed for HubSpot UI Extension)
+backend/
+*.py
+requirements.txt
+Dockerfile
+docker-compose.yml
+
+# Development files
+node_modules/
+.git/
+.gitignore
+.env*
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts (except dist/)
+*.map
+*.bundle.js

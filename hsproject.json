@@ -1,0 +1,48 @@
+{
+  "name": "hubspot-company-line-items-app",
+  "srcDir": "hubspot",
+  "version": "1.0.0",
+  "description": "A HubSpot app that displays line items from company deals in a custom sidebar card",
+  "author": "digital-how",
+  "website": "https://github.com/digital-how/hubspot",
+  "support": "https://github.com/digital-how/hubspot/issues",
+  "privacyPolicy": "https://github.com/digital-how/hubspot",
+  "termsOfService": "https://github.com/digital-how/hubspot",
+  "oauth": {
+    "clientId": "{{HUBSPOT_CLIENT_ID}}",
+    "clientSecret": "{{HUBSPOT_CLIENT_SECRET}}",
+    "redirectUri": "{{HUBSPOT_REDIRECT_URI}}",
+    "scopes": [
+      "crm.objects.companies.read",
+      "crm.objects.deals.read",
+      "crm.objects.line_items.read"
+    ]
+  },
+  "permissions": {
+    "scopes": [
+      "crm.objects.companies.read",
+      "crm.objects.deals.read",
+      "crm.objects.line_items.read"
+    ]
+  },
+  "uiExtensions": [
+    {
+      "type": "crm.record.sidebar",
+      "objectType": "COMPANIES",
+      "file": "./dist/bundle.js",
+      "meta": {
+        "label": "Line Items",
+        "icon": "line-chart",
+        "description": "View all line items from this company's deals"
+      }
+    }
+  ],
+  "webhooks": [],
+  "functions": [],
+  "actions": [],
+  "triggers": [],
+  "permittedUrls": [
+    "https://yourdomain.com",
+    "http://localhost:5000"
+  ]
+}
