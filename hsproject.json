@@ -1,6 +1,6 @@
 {
   "name": "company-line-items-extension-2024",
-  "srcDir": "hubspot",
+  "srcDir": "src",
   "version": "1.0.0",
   "platformVersion": "2025.2",
   "description": "Display line items from company deals in sidebar",

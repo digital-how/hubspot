@@ -1,25 +1,10 @@
 {
-  "name": "company-line-items-app",
+  "name": "company-line-items-extension-2024",
   "version": "1.0.0",
-  "description": "A full-stack HubSpot public app for displaying company line items",
+  "description": "HubSpot UI Extension for company line items",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "concurrently \"cd backend && python app.py\" \"cd hubspot && npm run dev\"",
-    "build": "cd hubspot && npm run build",
-    "install:all": "cd backend && pip install -r requirements.txt && cd ../hubspot && npm install",
-    "start:backend": "cd backend && python app.py",
-    "start:frontend": "cd hubspot && npm run dev"
-  },
-  "devDependencies": {
-    "concurrently": "^8.2.0"
-  },
-  "keywords": [
-    "hubspot",
-    "crm",
-    "line-items",
-    "react",
-    "flask",
-    "oauth"
-  ],
-  "author": "digital-how",
-  "license": "MIT"
+    "build": "cp src/index.js dist/bundle.js",
+    "dev": "cp src/index.js dist/bundle.js && echo 'Built successfully'"
+  }
 }
