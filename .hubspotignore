@@ -1,25 +1,9 @@
-# Backend files
 backend/
 *.py
 requirements.txt
 Dockerfile
 docker-compose.yml
-
-# Development files
 node_modules/
 .git/
-.gitignore
 .env*
-
-# IDE files
-.vscode/
-.idea/
-
-# OS files
 .DS_Store
-Thumbs.db
-
-# Keep these files for HubSpot
-# app-hsmeta.json
-# cards/
-# hsproject.json

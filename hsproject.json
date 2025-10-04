@@ -1,18 +1,7 @@
 {
-  "name": "company-line-items-extension-2024",
+  "name": "line-items-2024",
   "srcDir": "src",
   "version": "1.0.0",
   "platformVersion": "2025.2",
-  "description": "Display line items from company deals in sidebar",
-  "components": [
-    {
-      "type": "crm.record.sidebar",
-      "objectType": "COMPANIES",
-      "file": "./dist/bundle.js",
-      "meta": {
-        "label": "Line Items",
-        "icon": "line-chart"
-      }
-    }
-  ]
+  "description": "Company line items sidebar"
 }
