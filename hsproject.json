@@ -3,36 +3,12 @@
   "srcDir": "hubspot",
   "version": "1.0.0",
   "platformVersion": "2025.2",
-  "description": "A HubSpot app that displays line items from company deals in a custom sidebar card",
-  "author": "digital-how",
-  "website": "https://github.com/digital-how/hubspot",
-  "support": "https://github.com/digital-how/hubspot/issues",
-  "oauth": {
-    "clientId": "{{HUBSPOT_CLIENT_ID}}",
-    "clientSecret": "{{HUBSPOT_CLIENT_SECRET}}",
-    "redirectUri": "{{HUBSPOT_REDIRECT_URI}}",
-    "scopes": [
-      "crm.objects.companies.read",
-      "crm.objects.deals.read",
-      "crm.objects.line_items.read"
-    ]
-  },
-  "permissions": {
-    "scopes": [
-      "crm.objects.companies.read",
-      "crm.objects.deals.read",
-      "crm.objects.line_items.read"
-    ]
-  },
+  "description": "Simple HubSpot app for displaying company line items",
   "uiExtensions": [
     {
       "type": "crm.record.sidebar",
       "objectType": "COMPANIES",
-      "file": "./dist/bundle.js",
-      "meta": {
-        "label": "Line Items",
-        "icon": "line-chart"
-      }
+      "file": "./dist/bundle.js"
     }
   ]
 }
