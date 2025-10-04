@@ -18,3 +18,8 @@ node_modules/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Keep these files for HubSpot
+# app-hsmeta.json
+# cards/
+# hsproject.json

@@ -1,0 +1,20 @@
+{
+  "name": "Company Line Items Card",
+  "uid": "company-line-items-card-v2-3f7a",
+  "version": "1.0.0",
+  "type": "crm.record.sidebar",
+  "objectType": "COMPANIES",
+  "file": "./dist/bundle.js",
+  "meta": {
+    "label": "Line Items",
+    "icon": "line-chart",
+    "description": "View all line items from this company's deals"
+  },
+  "permissions": {
+    "scopes": [
+      "crm.objects.companies.read",
+      "crm.objects.deals.read",
+      "crm.objects.line_items.read"
+    ]
+  }
+}

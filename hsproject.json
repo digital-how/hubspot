@@ -4,11 +4,15 @@
   "version": "1.0.0",
   "platformVersion": "2025.2",
   "description": "Display line items from company deals in sidebar",
-  "uiExtensions": [
+  "components": [
     {
       "type": "crm.record.sidebar",
       "objectType": "COMPANIES",
-      "file": "./dist/bundle.js"
+      "file": "./dist/bundle.js",
+      "meta": {
+        "label": "Line Items",
+        "icon": "line-chart"
+      }
     }
   ]
 }
