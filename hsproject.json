@@ -1,9 +1,9 @@
 {
-  "name": "company-deals-line-items",
+  "name": "company-line-items-extension-2024",
   "srcDir": "hubspot",
   "version": "1.0.0",
   "platformVersion": "2025.2",
-  "description": "Display line items from company deals",
+  "description": "Display line items from company deals in sidebar",
   "uiExtensions": [
     {
       "type": "crm.record.sidebar",
