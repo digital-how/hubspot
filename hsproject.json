@@ -1,9 +1,9 @@
 {
-  "name": "company-line-items-app",
+  "name": "company-deals-line-items",
   "srcDir": "hubspot",
   "version": "1.0.0",
   "platformVersion": "2025.2",
-  "description": "Simple HubSpot app for displaying company line items",
+  "description": "Display line items from company deals",
   "uiExtensions": [
     {
       "type": "crm.record.sidebar",
