@@ -5,6 +5,10 @@ requirements.txt
 Dockerfile
 docker-compose.yml
 
+# Old metadata files (use hsproject.json instead)
+app-hsmeta.json
+company-line-items-card-hsmeta.json
+
 # Development files
 node_modules/
 .git/

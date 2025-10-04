@@ -7,7 +7,8 @@ import {
   Spinner, 
   Alert,
   Flex,
-  Heading
+  Heading,
+  HubspotProvider
 } from '@hubspot/ui-extensions';
 
 const CompanyLineItemsCard = () => {
