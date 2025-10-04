@@ -1,5 +1,5 @@
 {
-  "name": "hubspot-company-line-items-app",
+  "name": "company-line-items-app",
   "version": "1.0.0",
   "description": "A full-stack HubSpot public app for displaying company line items",
   "scripts": {
@@ -20,6 +20,6 @@
     "flask",
     "oauth"
   ],
-  "author": "Your Company",
+  "author": "digital-how",
   "license": "MIT"
 }

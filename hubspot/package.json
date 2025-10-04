@@ -1,5 +1,5 @@
 {
-  "name": "hubspot-company-line-items-card",
+  "name": "company-line-items-card",
   "version": "1.0.0",
   "description": "HubSpot UI Extension for displaying company line items",
   "main": "src/index.js",

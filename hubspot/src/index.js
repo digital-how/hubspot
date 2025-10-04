@@ -1,9 +1,8 @@
 import React from 'react';
-import { render } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { HubspotProvider } from '@hubspot/ui-extensions';
 import CompanyLineItemsCard from './components/CompanyLineItemsCard';
 
-// Register the extension
-HubspotProvider.registerExtension('company-line-items-card', () => {
-  return <CompanyLineItemsCard />;
-});
+// Simple extension registration
+const root = createRoot(document.getElementById('root'));
+root.render(<CompanyLineItemsCard />);
